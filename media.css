@@ -1,0 +1,223 @@
+@media (min-width: 1110px) {
+    .menu-icon{
+        visibility: hidden;
+    }
+    .header-nav{
+        width: 60%;
+    }
+    .menu-icon{
+        visibility: hidden;
+    }
+    #about{
+        padding-top: 50px;
+    }
+    #plan_tour{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 1110px) {
+    .logo{
+        font-size: 14px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .header-nav{
+        width: 60%;
+    }
+    .menu-icon{
+        visibility: hidden;
+    }
+    #about{
+        padding-top: 60px;
+    }
+    #plan_tour{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 900px) {
+    .logo{
+        font-size: 14px;
+        text-align: center;
+        padding-top: 12px;
+    
+    }
+    .firstsection-button{
+        margin-top: 25px;
+    }
+    .firstsection{
+        display: block;
+    }
+    .header-nav{
+        width: 60%;
+        display: none;
+    }
+    .menu-icon{
+        visibility: visible;
+        padding-right: 0%;
+    }
+    .menu-btn:checked ~ .header-nav{
+        transition:all .1s ease-out;
+        display: block;
+        position: absolute;
+        top: 49px;
+        left: 0;
+        width: 100%;
+    }
+    .header-ul li{
+        padding: 10px;
+    }
+    .menu-btn:checked ~ .header-ul{
+        transition:all .1s ease-out;
+    }
+    .header-ul{
+        width: 100%;
+        height: 70px;
+        transition:all .1s ease-out;
+        box-shadow: 5px 5px 15px rgb(179, 179, 179);
+    }
+    .header-li{
+        margin-top: 15px;
+    }
+    #about{
+        padding-top: 60px;
+    }
+    #plan_tour{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 800px) {
+    .menu-btn:checked ~ .header-nav{
+        transition:all .1s ease-out;
+        display: block;
+        position: absolute;
+        top: 49px;
+        left: 0;
+        width: 100%;
+    }
+    .traveling-with-us{
+        font-size: 27px;
+        text-align: center;
+        margin: 0%;
+        margin-top: 20px;
+    
+    }
+    .header-nav{
+        width: 60%;
+    }
+    .header-a{
+        font-size: 22px;
+    }
+
+    .menu-icon{
+        visibility: visible;
+    }
+    .menu-btn:checked ~ .header-ul{
+        height: 150px;
+    }
+    #about{
+        padding-top: 60px;
+    }
+    #plan_tour{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 550px) {
+    .menu-btn:checked ~ .header-nav{
+        transition:all .1s ease-out;
+        display: block;
+        position: absolute;
+        top: 49px;
+        left: 0;
+        width: 100%;
+    }
+    .header-ul{
+        text-align: center;
+    }
+    .top-2-ul{
+        font-size: 18px;
+        padding-left: 0px;
+        list-style: none;
+        text-align: center;
+    }
+    .top-h{
+        text-align: center;
+    }
+    main{
+        width: 98%;
+        margin: auto;
+    }
+    #about{
+        padding-top: 60px;
+    }
+}
+@media (max-width: 475px) {
+    .header-ul{
+        height: 100px;
+    }
+    .top-2-ul{
+        font-size: 18px;
+        padding-left: 0px;
+        list-style: none;
+        text-align: center;
+    }
+    .top-h{
+        text-align: center;
+    }
+    main{
+        width: 98%;
+        margin: auto;
+    }
+    #about{
+        padding-top: 100px;
+    }
+}
+@media (max-width: 400px) {
+    .menu-btn:checked ~ .header-nav{
+        transition:all .1s ease-out;
+        display: block;
+        position: absolute;
+        top: 49px;
+        left: 0;
+        width: 100%;
+    }
+    .logo-a{
+        font-size: 14px;
+    }
+    .header-ul{
+        text-align: center;
+        display: block;
+        height: 170px;
+    }
+    .header-ul li{
+        padding: 0;
+    }
+    .header-ul li{
+        list-style: none;
+    }
+    .header-ul li a{
+        font-size: 20px;
+    }
+    .outer-main-container{
+        width: 100%;
+    }
+    .top-2-ul{
+        font-size: 18px;
+        padding-left: 0px;
+        list-style: none;
+        text-align: center;
+    }
+    .top-h{
+        text-align: center;
+    }
+    .button-div{
+        display: block;
+        text-align: center;
+    }
+    main{
+        width: 98%;
+        margin: auto;
+    }
+    #about{
+        padding-top: 150px;
+    }
+}
